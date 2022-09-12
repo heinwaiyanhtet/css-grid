@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        section {
+            background-color: #32343c;
+            padding:1.5rem;
+            max-width: 60rem;
+            margin:6rem auto;
+
+            display: grid;
+            grid-template-columns: max-content auto auto fit-content(100%);
+            gap:1.5rem;
+            align-items: center;
+        }
+
+        h3 , li{
+            color:white;
+        }
+        img {
+            display: block;
+            width: 8rem;
+            height:6rem;
+            object-fit: cover;
+        }
+        span {
+            font-size: 0.8rem;
+            opacity: 0.7;
+            color:white;
+        }
+        ul{
+            list-style-type: none;
+            padding:0;
+            line-height: 1.7rem;
+        }
+        button {
+            display: inline-block;
+            padding:0.6rem 2rem;
+            border:1px solid #16a34a;
+            border-radius: 5px;
+            color:#ffffff;
+            font-weight: 600;
+            font-size: 0.8rem;
+            cursor: pointer;
+            background-color: #16a34a;
+        }
+        svg{
+            width: 16px;
+            padding-right: 0.2rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <img src="img/client-4.jpg" alt="">
+
+        <div class="info">
+            <h3>Cheese & Grill Restaurant</h3>
+            <span>St . Marks Street</span>
+        </div>
+
+        <ul>
+            <li>
+                <svg fill="#16a34a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+                </svg>
+                Outdoor Seating
+            </li>
+
+            <li>
+                <svg fill="#16a34a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+                </svg>
+                Private Seating
+            </li>
+        </ul>
+        <button class="btn-book-table">Book a Table</button>
+    </section>
+</body>
+</html>
